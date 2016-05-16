@@ -8,12 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		CF87A1911CEA1CBF00160B13 /* HLSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1901CEA1CBF00160B13 /* HLSocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B11CEA1CCC00160B13 /* UMSocial.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1991CEA1CCC00160B13 /* UMSocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B21CEA1CCC00160B13 /* UMSocialAccountManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A19A1CEA1CCC00160B13 /* UMSocialAccountManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B31CEA1CCC00160B13 /* UMSocialBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A19B1CEA1CCC00160B13 /* UMSocialBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B41CEA1CCC00160B13 /* UMSocialConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A19C1CEA1CCC00160B13 /* UMSocialConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B51CEA1CCC00160B13 /* UMSocialControllerService.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A19D1CEA1CCC00160B13 /* UMSocialControllerService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B61CEA1CCC00160B13 /* UMSocialControllerServiceComment.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A19E1CEA1CCC00160B13 /* UMSocialControllerServiceComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B71CEA1CCC00160B13 /* UMSocialData.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A19F1CEA1CCC00160B13 /* UMSocialData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B81CEA1CCC00160B13 /* UMSocialDataService.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1A01CEA1CCC00160B13 /* UMSocialDataService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1B91CEA1CCC00160B13 /* UMSocialSnsData.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1A11CEA1CCC00160B13 /* UMSocialSnsData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1BA1CEA1CCC00160B13 /* UMSocialSnsPlatformManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1A21CEA1CCC00160B13 /* UMSocialSnsPlatformManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1BB1CEA1CCC00160B13 /* UMSocialSnsService.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1A31CEA1CCC00160B13 /* UMSocialSnsService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1BC1CEA1CCC00160B13 /* libUMSocial_Sdk_5.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF87A1A41CEA1CCC00160B13 /* libUMSocial_Sdk_5.1.a */; };
+		CF87A1BD1CEA1CCC00160B13 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF87A1A61CEA1CCC00160B13 /* libSocialQQ.a */; };
+		CF87A1BE1CEA1CCC00160B13 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF87A1A71CEA1CCC00160B13 /* TencentOpenAPI.framework */; };
+		CF87A1BF1CEA1CCC00160B13 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF87A1A81CEA1CCC00160B13 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		CF87A1C01CEA1CCC00160B13 /* UMSocialQQHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1A91CEA1CCC00160B13 /* UMSocialQQHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1C11CEA1CCC00160B13 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF87A1AB1CEA1CCC00160B13 /* libSocialWechat.a */; };
+		CF87A1C21CEA1CCC00160B13 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF87A1AC1CEA1CCC00160B13 /* libWeChatSDK.a */; };
+		CF87A1C31CEA1CCC00160B13 /* UMSocialWechatHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1AD1CEA1CCC00160B13 /* UMSocialWechatHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1C41CEA1CCC00160B13 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1AE1CEA1CCC00160B13 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1C51CEA1CCC00160B13 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1AF1CEA1CCC00160B13 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF87A1C61CEA1CCC00160B13 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CF87A1B01CEA1CCC00160B13 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF87A18D1CEA1CBF00160B13 /* HLSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF87A1901CEA1CBF00160B13 /* HLSocial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLSocial.h; sourceTree = "<group>"; };
 		CF87A1921CEA1CBF00160B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF87A1991CEA1CCC00160B13 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		CF87A19A1CEA1CCC00160B13 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		CF87A19B1CEA1CCC00160B13 /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		CF87A19C1CEA1CCC00160B13 /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		CF87A19D1CEA1CCC00160B13 /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		CF87A19E1CEA1CCC00160B13 /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		CF87A19F1CEA1CCC00160B13 /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		CF87A1A01CEA1CCC00160B13 /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		CF87A1A11CEA1CCC00160B13 /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		CF87A1A21CEA1CCC00160B13 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		CF87A1A31CEA1CCC00160B13 /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		CF87A1A41CEA1CCC00160B13 /* libUMSocial_Sdk_5.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_5.1.a; sourceTree = "<group>"; };
+		CF87A1A61CEA1CCC00160B13 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialQQ.a; sourceTree = "<group>"; };
+		CF87A1A71CEA1CCC00160B13 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		CF87A1A81CEA1CCC00160B13 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		CF87A1A91CEA1CCC00160B13 /* UMSocialQQHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialQQHandler.h; sourceTree = "<group>"; };
+		CF87A1AB1CEA1CCC00160B13 /* libSocialWechat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWechat.a; sourceTree = "<group>"; };
+		CF87A1AC1CEA1CCC00160B13 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		CF87A1AD1CEA1CCC00160B13 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		CF87A1AE1CEA1CCC00160B13 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		CF87A1AF1CEA1CCC00160B13 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		CF87A1B01CEA1CCC00160B13 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +65,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF87A1BD1CEA1CCC00160B13 /* libSocialQQ.a in Frameworks */,
+				CF87A1BE1CEA1CCC00160B13 /* TencentOpenAPI.framework in Frameworks */,
+				CF87A1C11CEA1CCC00160B13 /* libSocialWechat.a in Frameworks */,
+				CF87A1BC1CEA1CCC00160B13 /* libUMSocial_Sdk_5.1.a in Frameworks */,
+				CF87A1C21CEA1CCC00160B13 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,10 +95,56 @@
 		CF87A18F1CEA1CBF00160B13 /* HLSocial */ = {
 			isa = PBXGroup;
 			children = (
+				CF87A1981CEA1CCC00160B13 /* Header */,
+				CF87A1A41CEA1CCC00160B13 /* libUMSocial_Sdk_5.1.a */,
+				CF87A1A51CEA1CCC00160B13 /* TencentOpenAPI */,
+				CF87A1AA1CEA1CCC00160B13 /* Wechat */,
 				CF87A1901CEA1CBF00160B13 /* HLSocial.h */,
 				CF87A1921CEA1CBF00160B13 /* Info.plist */,
 			);
 			path = HLSocial;
+			sourceTree = "<group>";
+		};
+		CF87A1981CEA1CCC00160B13 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				CF87A1991CEA1CCC00160B13 /* UMSocial.h */,
+				CF87A19A1CEA1CCC00160B13 /* UMSocialAccountManager.h */,
+				CF87A19B1CEA1CCC00160B13 /* UMSocialBar.h */,
+				CF87A19C1CEA1CCC00160B13 /* UMSocialConfig.h */,
+				CF87A19D1CEA1CCC00160B13 /* UMSocialControllerService.h */,
+				CF87A19E1CEA1CCC00160B13 /* UMSocialControllerServiceComment.h */,
+				CF87A19F1CEA1CCC00160B13 /* UMSocialData.h */,
+				CF87A1A01CEA1CCC00160B13 /* UMSocialDataService.h */,
+				CF87A1A11CEA1CCC00160B13 /* UMSocialSnsData.h */,
+				CF87A1A21CEA1CCC00160B13 /* UMSocialSnsPlatformManager.h */,
+				CF87A1A31CEA1CCC00160B13 /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		CF87A1A51CEA1CCC00160B13 /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CF87A1A61CEA1CCC00160B13 /* libSocialQQ.a */,
+				CF87A1A71CEA1CCC00160B13 /* TencentOpenAPI.framework */,
+				CF87A1A81CEA1CCC00160B13 /* TencentOpenApi_IOS_Bundle.bundle */,
+				CF87A1A91CEA1CCC00160B13 /* UMSocialQQHandler.h */,
+			);
+			path = TencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		CF87A1AA1CEA1CCC00160B13 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				CF87A1AB1CEA1CCC00160B13 /* libSocialWechat.a */,
+				CF87A1AC1CEA1CCC00160B13 /* libWeChatSDK.a */,
+				CF87A1AD1CEA1CCC00160B13 /* UMSocialWechatHandler.h */,
+				CF87A1AE1CEA1CCC00160B13 /* WechatAuthSDK.h */,
+				CF87A1AF1CEA1CCC00160B13 /* WXApi.h */,
+				CF87A1B01CEA1CCC00160B13 /* WXApiObject.h */,
+			);
+			path = Wechat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +154,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF87A1BB1CEA1CCC00160B13 /* UMSocialSnsService.h in Headers */,
+				CF87A1B91CEA1CCC00160B13 /* UMSocialSnsData.h in Headers */,
+				CF87A1C41CEA1CCC00160B13 /* WechatAuthSDK.h in Headers */,
+				CF87A1C31CEA1CCC00160B13 /* UMSocialWechatHandler.h in Headers */,
 				CF87A1911CEA1CBF00160B13 /* HLSocial.h in Headers */,
+				CF87A1B51CEA1CCC00160B13 /* UMSocialControllerService.h in Headers */,
+				CF87A1C51CEA1CCC00160B13 /* WXApi.h in Headers */,
+				CF87A1C01CEA1CCC00160B13 /* UMSocialQQHandler.h in Headers */,
+				CF87A1B41CEA1CCC00160B13 /* UMSocialConfig.h in Headers */,
+				CF87A1B71CEA1CCC00160B13 /* UMSocialData.h in Headers */,
+				CF87A1C61CEA1CCC00160B13 /* WXApiObject.h in Headers */,
+				CF87A1BA1CEA1CCC00160B13 /* UMSocialSnsPlatformManager.h in Headers */,
+				CF87A1B61CEA1CCC00160B13 /* UMSocialControllerServiceComment.h in Headers */,
+				CF87A1B81CEA1CCC00160B13 /* UMSocialDataService.h in Headers */,
+				CF87A1B31CEA1CCC00160B13 /* UMSocialBar.h in Headers */,
+				CF87A1B21CEA1CCC00160B13 /* UMSocialAccountManager.h in Headers */,
+				CF87A1B11CEA1CCC00160B13 /* UMSocial.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF87A1BF1CEA1CCC00160B13 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,9 +346,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HLSocial/TencentOpenAPI",
+				);
 				INFOPLIST_FILE = HLSocial/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HLSocial",
+					"$(PROJECT_DIR)/HLSocial/TencentOpenAPI",
+					"$(PROJECT_DIR)/HLSocial/Wechat",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qkhl.HLSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -250,9 +372,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HLSocial/TencentOpenAPI",
+				);
 				INFOPLIST_FILE = HLSocial/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HLSocial",
+					"$(PROJECT_DIR)/HLSocial/TencentOpenAPI",
+					"$(PROJECT_DIR)/HLSocial/Wechat",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qkhl.HLSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UMSocial.h"
+#import "UMSocialQQHandler.h"
+#import "UMSocialWechatHandler.h"
 
 //! Project version number for HLSocial.
 FOUNDATION_EXPORT double HLSocialVersionNumber;
