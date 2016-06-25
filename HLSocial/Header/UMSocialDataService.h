@@ -7,6 +7,7 @@
 //
 #import <Foundation/Foundation.h>
 #import "UMSocialData.h"
+#import <CoreLocation/CoreLocation.h>
 
 /**
  网络请求结果状态码
